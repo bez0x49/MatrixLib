@@ -10,13 +10,13 @@ The library implements several operations on matrices and also compares them. Ma
 
 To get an element like in the two-dimensional array `A[i][j]` you need to call the method:
 
-```
+```cpp
 Matrix M;
 M.GetValueByIndex(0, 3);
 ```
 
 Similarly, if you want to assign:
 
-```
+```cpp
 M.SetValueByIndex(0, 3, 49.5);
 ```
